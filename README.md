@@ -81,10 +81,17 @@ num_courses_visited.
 
 ## Environments
 
+Python 3.10.12
+
 Criar o ambiente 
+
+```
+python -m venv venv
+pip install -r requirements.txt
+```
 
 Ativar o ambiente
 
 ```
-pipenv shell
+source venv/bin/activate
 ```
